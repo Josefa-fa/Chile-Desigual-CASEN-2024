@@ -1,0 +1,21 @@
+{% extends 'analisis/base.html' %}
+{% block titulo %}Gráfico de líneas{% endblock %}
+{% block contenido %}
+<h2 class="h3 mb-3">Gráfico de líneas: curva de Lorenz del ingreso</h2>
+<p>
+  La línea azul muestra qué porcentaje del ingreso total acumula cada
+  porcentaje de la población, ordenada del decil más pobre al más rico; la
+  línea punteada sería una sociedad perfectamente igualitaria. Mientras más
+  se aleja la curva azul de la diagonal, mayor es la desigualdad: el 50% más
+  pobre concentra solo {{ primeros_5|floatformat:1 }}% del ingreso, mientras
+  que el 10% más rico recibe {{ ultimo_decil|floatformat:1 }}% (el 10% más
+  pobre, {{ primer_decil|floatformat:1 }}%). El índice de Gini resultante es
+  {{ nacional.gini|floatformat:3 }}.
+</p>
+<div class="card shadow-sm">
+  <div class="card-body text-center">
+    <img src="data:image/png;base64,{{ grafico }}" class="img-fluid rounded"
+         alt="Curva de Lorenz del ingreso per cápita">
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,19 @@
+{% extends 'analisis/base.html' %}
+{% block titulo %}Gráfico de dispersión{% endblock %}
+{% block contenido %}
+<h2 class="h3 mb-3">Gráfico de dispersión: escolaridad e ingreso</h2>
+<p>
+  Cada punto es una de las {{ n_regiones }} regiones. En el eje horizontal
+  está el promedio de años de escolaridad de sus adultos y en el vertical su
+  ingreso per cápita mediano. Los puntos tienden a subir hacia la derecha: las
+  regiones con más escolaridad suelen tener mayores ingresos (correlación positiva moderada,
+  Pearson r = {{ correlacion|floatformat:2 }}). Es una asociación entre
+  regiones, no prueba que una cause la otra.
+</p>
+<div class="card shadow-sm">
+  <div class="card-body text-center">
+    <img src="data:image/png;base64,{{ grafico }}" class="img-fluid rounded"
+         alt="Escolaridad de los adultos e ingreso mediano por región">
+  </div>
+</div>
+{% endblock %}

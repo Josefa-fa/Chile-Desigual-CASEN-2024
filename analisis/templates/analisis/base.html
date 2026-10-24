@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es-CL">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{% block titulo %}Chile desigual | CASEN 2024{% endblock %}</title>
+
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+    crossorigin="anonymous">
+
+  <style>
+    body {
+      background-color: #f4f7fb;
+      color: #243447;
+    }
+
+    /* Encabezado superior */
+    .encabezado {
+      background-color: #17324d;
+      color: white;
+    }
+
+    /* Distribución de menú y contenido */
+    .estructura {
+      display: flex;
+      min-height: calc(100vh - 150px);
+    }
+
+    /* Menú vertical izquierdo */
+    .barra-menu {
+      background-color: #244765;
+      width: 250px;
+      flex-shrink: 0;
+      padding: 20px 10px;
+    }
+
+    .barra-menu .nav-link,
+    .barra-menu .navbar-brand {
+      color: white;
+    }
+
+    .barra-menu .nav-link:hover,
+    .barra-menu .nav-link.show {
+      background-color: #37658b;
+      border-radius: 6px;
+    }
+
+    /* Contenido principal */
+    .contenido-principal {
+      flex: 1;
+      min-width: 0;
+      padding: 25px;
+    }
+
+    h2 {
+      color: #17324d;
+    }
+
+    /* Adaptación a celulares */
+    @media (max-width: 768px) {
+      .estructura {
+        flex-direction: column;
+      }
+
+      .barra-menu {
+        width: 100%;
+      }
+
+      .contenido-principal {
+        padding: 15px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Encabezado -->
+  <header class="encabezado text-center py-4">
+    <h1 class="h2 text-white">Chile desigual: CASEN 2024</h1>
+    <p class="mb-0">
+      Brechas territoriales y calidad de vida en Chile
+    </p>
+  </header>
+
+  <!-- Menú lateral y contenido -->
+  <div class="estructura">
+
+    {% include 'analisis/menu.html' %}
+
+    <main class="contenido-principal">
+      {% block contenido %}{% endblock %}
+    </main>
+
+  </div>
+
+  <!-- Pie de página -->
+  <footer class="text-center text-secondary py-3">
+    Proyecto de Visualización de Datos | CASEN 2024
+  </footer>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+
+</body>
+</html>
+

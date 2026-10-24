@@ -1,0 +1,97 @@
+<nav class="barra-menu" aria-label="Navegación principal">
+
+  <ul class="nav flex-column">
+
+    <!-- INICIO -->
+    <li class="nav-item">
+      <a class="nav-link" href="{% url 'inicio' %}">
+        Inicio
+      </a>
+    </li>
+
+    <hr class="border-light">
+
+    <!-- LISTADOS -->
+    <li class="nav-item">
+
+      <button class="nav-link dropdown-toggle w-100 text-start"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#menuListados"
+        aria-expanded="false"
+        aria-controls="menuListados">
+        Listados de datos
+      </button>
+
+      <div class="collapse" id="menuListados">
+        <ul class="nav flex-column ms-3">
+
+          <li class="nav-item">
+            <a class="nav-link"
+              href="{% url 'listado_regiones' %}">
+              Pobreza por región
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link"
+              href="{% url 'listado_zonas' %}">
+              Pobreza urbana y rural
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link"
+              href="{% url 'listado_educacion' %}">
+              Educación e ingresos
+            </a>
+          </li>
+
+        </ul>
+      </div>
+    </li>
+
+    <hr class="border-light">
+
+    <!-- GRÁFICOS -->
+    <li class="nav-item">
+
+      <button class="nav-link dropdown-toggle w-100 text-start"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#menuGraficos"
+        aria-expanded="false"
+        aria-controls="menuGraficos">
+        Gráficos
+      </button>
+
+      <div class="collapse" id="menuGraficos">
+        <ul class="nav flex-column ms-3">
+
+          <li class="nav-item">
+            <a class="nav-link"
+              href="{% url 'grafico_barras' %}">
+              Gráfico de barras
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link"
+              href="{% url 'grafico_lineas' %}">
+              Gráfico de líneas
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link"
+              href="{% url 'grafico_dispersion' %}">
+              Gráfico de dispersión
+            </a>
+          </li>
+
+        </ul>
+      </div>
+    </li>
+
+  </ul>
+</nav>

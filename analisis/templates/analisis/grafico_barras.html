@@ -1,0 +1,20 @@
+{% extends 'analisis/base.html' %}
+{% block titulo %}Gráfico de barras{% endblock %}
+{% block contenido %}
+<h2 class="h3 mb-3">Gráfico de barras: pobreza por región</h2>
+<p>
+  Cada barra es una región y su largo indica el porcentaje de personas en
+  pobreza por ingresos; las regiones están ordenadas de mayor a menor, de arriba hacia abajo. La
+  línea punteada marca el promedio nacional ({{ nacional.pobreza_ingresos|floatformat:1 }}%)
+  y las barras rojas son las regiones que lo superan ({{ sobre_promedio }} de 16).
+  La mayor pobreza está en <strong>{{ mayor.nombre }}</strong>
+  ({{ mayor.pobreza_ingresos|floatformat:1 }}%) y la menor en
+  <strong>{{ menor.nombre }}</strong> ({{ menor.pobreza_ingresos|floatformat:1 }}%).
+</p>
+<div class="card shadow-sm">
+  <div class="card-body text-center">
+    <img src="data:image/png;base64,{{ grafico }}" class="img-fluid rounded"
+         alt="Pobreza por ingresos según región">
+  </div>
+</div>
+{% endblock %}

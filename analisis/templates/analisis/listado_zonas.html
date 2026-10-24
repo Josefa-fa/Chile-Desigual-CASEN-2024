@@ -1,0 +1,59 @@
+{% extends 'analisis/base.html' %}
+{% block titulo %}Pobreza urbana y rural{% endblock %}
+{% block contenido %}
+<h2 class="h3 mb-3">Pobreza urbana y rural</h2>
+<p>
+  Esta tabla compara las zonas urbana y rural del país: población estimada,
+  tasas de pobreza por ingresos, extrema y multidimensional, ingreso per cápita
+  mediano, escolaridad de los adultos y porcentaje de personas que viven en
+  hogares con hacinamiento. La última fila muestra la brecha (rural menos
+  urbano): la pobreza por ingresos rural supera a la urbana en
+  {{ brecha.pobreza_ingresos|floatformat:1 }} puntos porcentuales.
+</p>
+<div class="table-responsive">
+  <table class="table table-striped table-hover align-middle bg-white">
+    <thead class="table-dark">
+      <tr>
+        <th>Zona</th>
+        <th class="text-end">Población estimada</th>
+        <th class="text-end">Pobreza por ingresos (%)</th>
+        <th class="text-end">Pobreza extrema (%)</th>
+        <th class="text-end">Pobreza multidimensional (%)</th>
+        <th class="text-end">Ingreso mediano ($)</th>
+        <th class="text-end">Escolaridad adultos (años)</th>
+        <th class="text-end">Hacinamiento (%)</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for z in zonas %}
+      <tr>
+        <td>{{ z.nombre }}</td>
+        <td class="text-end">{{ z.poblacion }}</td>
+        <td class="text-end">{{ z.pobreza_ingresos|floatformat:1 }}</td>
+        <td class="text-end">{{ z.pobreza_extrema|floatformat:1 }}</td>
+        <td class="text-end">{{ z.pobreza_multidimensional|floatformat:1 }}</td>
+        <td class="text-end">{{ z.ingreso_mediano }}</td>
+        <td class="text-end">{{ z.escolaridad_adultos|floatformat:1 }}</td>
+        <td class="text-end">{{ z.hacinamiento|floatformat:1 }}</td>
+      </tr>
+      {% empty %}
+      <tr><td colspan="8">No existen datos cargados.</td></tr>
+      {% endfor %}
+    </tbody>
+    <tfoot class="table-secondary">
+      <tr>
+        <th>Brecha (rural - urbano)</th>
+        <th></th>
+        <th class="text-end">{{ brecha.pobreza_ingresos|floatformat:1 }} pp</th>
+        <th></th>
+        <th class="text-end">{{ brecha.pobreza_multidimensional|floatformat:1 }} pp</th>
+        <th class="text-end">{{ brecha.ingreso_mediano }}</th>
+        <th class="text-end">{{ brecha.escolaridad_adultos|floatformat:1 }}</th>
+        <th></th>
+      </tr>
+    </tfoot>
+  </table>
+</div>
+<p class="text-secondary small">pp = puntos porcentuales. Fuente: CASEN 2024.
+  Valores ponderados por el factor de expansión.</p>
+{% endblock %}

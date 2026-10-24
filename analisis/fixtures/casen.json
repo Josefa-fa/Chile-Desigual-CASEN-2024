@@ -1,0 +1,449 @@
+[
+ {
+  "model": "analisis.indicadorregion",
+  "pk": 1,
+  "fields": {
+   "orden": 1,
+   "nombre": "Arica y Parinacota",
+   "poblacion": 261967,
+   "pobreza_ingresos": 21.43,
+   "pobreza_extrema": 9.85,
+   "pobreza_multidimensional": 18.69,
+   "ingreso_mediano": 401688,
+   "escolaridad_adultos": 12.55
+  }
+ },
+ {
+  "model": "analisis.indicadorregion",
+  "pk": 2,
+  "fields": {
+   "orden": 2,
+   "nombre": "Tarapacá",
+   "poblacion": 408188,
+   "pobreza_ingresos": 20.81,
+   "pobreza_extrema": 8.97,
+   "pobreza_multidimensional": 22.24,
+   "ingreso_mediano": 420000,
+   "escolaridad_adultos": 12.44
+  }
+ },
+ {
+  "model": "analisis.indicadorregion",
+  "pk": 3,
+  "fields": {
+   "orden": 3,
+   "nombre": "Antofagasta",
+   "poblacion": 719381,
+   "pobreza_ingresos": 16.39,
+   "pobreza_extrema": 7.07,
+   "pobreza_multidimensional": 17.34,
+   "ingreso_mediano": 485000,
+   "escolaridad_adultos": 12.6
+  }
+ },
+ {
+  "model": "analisis.indicadorregion",
+  "pk": 4,
+  "fields": {
+   "orden": 4,
+   "nombre": "Atacama",
+   "poblacion": 320250,
+   "pobreza_ingresos": 18.58,
+   "pobreza_extrema": 7.39,
+   "pobreza_multidimensional": 20.23,
+   "ingreso_mediano": 431418,
+   "escolaridad_adultos": 11.94
+  }
+ },
+ {
+  "model": "analisis.indicadorregion",
+  "pk": 5,
+  "fields": {
+   "orden": 5,
+   "nombre": "Coquimbo",
+   "poblacion": 883306,
+   "pobreza_ingresos": 20.67,
+   "pobreza_extrema": 9.1,
+   "pobreza_multidimensional": 17.04,
+   "ingreso_mediano": 397679,
+   "escolaridad_adultos": 11.87
+  }
+ },
+ {
+  "model": "analisis.indicadorregion",
+  "pk": 6,
+  "fields": {
+   "orden": 6,
+   "nombre": "Valparaíso",
+   "poblacion": 2031176,
+   "pobreza_ingresos": 17.79,
+   "pobreza_extrema": 6.77,
+   "pobreza_multidimensional": 15.95,
+   "ingreso_mediano": 434909,
+   "escolaridad_adultos": 12.39
+  }
+ },
+ {
+  "model": "analisis.indicadorregion",
+  "pk": 7,
+  "fields": {
+   "orden": 7,
+   "nombre": "Metropolitana",
+   "poblacion": 8440052,
+   "pobreza_ingresos": 13.34,
+   "pobreza_extrema": 4.97,
+   "pobreza_multidimensional": 19.7,
+   "ingreso_mediano": 518000,
+   "escolaridad_adultos": 13.0
+  }
+ },
+ {
+  "model": "analisis.indicadorregion",
+  "pk": 8,
+  "fields": {
+   "orden": 8,
+   "nombre": "O'Higgins",
+   "poblacion": 1028597,
+   "pobreza_ingresos": 17.86,
+   "pobreza_extrema": 7.04,
+   "pobreza_multidimensional": 17.9,
+   "ingreso_mediano": 411810,
+   "escolaridad_adultos": 11.29
+  }
+ },
+ {
+  "model": "analisis.indicadorregion",
+  "pk": 9,
+  "fields": {
+   "orden": 9,
+   "nombre": "Maule",
+   "poblacion": 1175652,
+   "pobreza_ingresos": 24.34,
+   "pobreza_extrema": 10.14,
+   "pobreza_multidimensional": 13.67,
+   "ingreso_mediano": 365385,
+   "escolaridad_adultos": 11.07
+  }
+ },
+ {
+  "model": "analisis.indicadorregion",
+  "pk": 10,
+  "fields": {
+   "orden": 10,
+   "nombre": "Ñuble",
+   "poblacion": 522483,
+   "pobreza_ingresos": 23.9,
+   "pobreza_extrema": 10.26,
+   "pobreza_multidimensional": 17.02,
+   "ingreso_mediano": 364500,
+   "escolaridad_adultos": 11.16
+  }
+ },
+ {
+  "model": "analisis.indicadorregion",
+  "pk": 11,
+  "fields": {
+   "orden": 11,
+   "nombre": "Biobío",
+   "poblacion": 1687832,
+   "pobreza_ingresos": 19.27,
+   "pobreza_extrema": 7.19,
+   "pobreza_multidimensional": 15.51,
+   "ingreso_mediano": 400833,
+   "escolaridad_adultos": 11.99
+  }
+ },
+ {
+  "model": "analisis.indicadorregion",
+  "pk": 12,
+  "fields": {
+   "orden": 12,
+   "nombre": "La Araucanía",
+   "poblacion": 1033591,
+   "pobreza_ingresos": 28.59,
+   "pobreza_extrema": 12.99,
+   "pobreza_multidimensional": 15.94,
+   "ingreso_mediano": 345499,
+   "escolaridad_adultos": 11.44
+  }
+ },
+ {
+  "model": "analisis.indicadorregion",
+  "pk": 13,
+  "fields": {
+   "orden": 13,
+   "nombre": "Los Ríos",
+   "poblacion": 413246,
+   "pobreza_ingresos": 22.27,
+   "pobreza_extrema": 8.46,
+   "pobreza_multidimensional": 14.38,
+   "ingreso_mediano": 394889,
+   "escolaridad_adultos": 11.76
+  }
+ },
+ {
+  "model": "analisis.indicadorregion",
+  "pk": 14,
+  "fields": {
+   "orden": 14,
+   "nombre": "Los Lagos",
+   "poblacion": 913940,
+   "pobreza_ingresos": 16.48,
+   "pobreza_extrema": 6.38,
+   "pobreza_multidimensional": 16.3,
+   "ingreso_mediano": 428253,
+   "escolaridad_adultos": 11.31
+  }
+ },
+ {
+  "model": "analisis.indicadorregion",
+  "pk": 15,
+  "fields": {
+   "orden": 15,
+   "nombre": "Aysén",
+   "poblacion": 108562,
+   "pobreza_ingresos": 14.33,
+   "pobreza_extrema": 5.3,
+   "pobreza_multidimensional": 12.1,
+   "ingreso_mediano": 544229,
+   "escolaridad_adultos": 11.78
+  }
+ },
+ {
+  "model": "analisis.indicadorregion",
+  "pk": 16,
+  "fields": {
+   "orden": 16,
+   "nombre": "Magallanes",
+   "poblacion": 183459,
+   "pobreza_ingresos": 9.94,
+   "pobreza_extrema": 4.17,
+   "pobreza_multidimensional": 6.14,
+   "ingreso_mediano": 605622,
+   "escolaridad_adultos": 12.47
+  }
+ },
+ {
+  "model": "analisis.indicadorzona",
+  "pk": 1,
+  "fields": {
+   "nombre": "Urbano",
+   "poblacion": 17869298,
+   "pobreza_ingresos": 16.54,
+   "pobreza_extrema": 6.54,
+   "pobreza_multidimensional": 17.29,
+   "ingreso_mediano": 462203,
+   "escolaridad_adultos": 12.6,
+   "hacinamiento": 6.42
+  }
+ },
+ {
+  "model": "analisis.indicadorzona",
+  "pk": 2,
+  "fields": {
+   "nombre": "Rural",
+   "poblacion": 2262384,
+   "pobreza_ingresos": 23.19,
+   "pobreza_extrema": 9.46,
+   "pobreza_multidimensional": 20.81,
+   "ingreso_mediano": 367546,
+   "escolaridad_adultos": 10.17,
+   "hacinamiento": 5.22
+  }
+ },
+ {
+  "model": "analisis.indicadoreducacion",
+  "pk": 1,
+  "fields": {
+   "orden": 0,
+   "nivel": "Sin educación formal",
+   "poblacion": 228360,
+   "porcentaje_adultos": 1.46,
+   "ingreso_mediano": 373710,
+   "ingreso_medio": 416295,
+   "pobreza_ingresos": 21.42
+  }
+ },
+ {
+  "model": "analisis.indicadoreducacion",
+  "pk": 2,
+  "fields": {
+   "orden": 1,
+   "nivel": "Básica incompleta",
+   "poblacion": 1320478,
+   "porcentaje_adultos": 8.42,
+   "ingreso_mediano": 390927,
+   "ingreso_medio": 432378,
+   "pobreza_ingresos": 23.6
+  }
+ },
+ {
+  "model": "analisis.indicadoreducacion",
+  "pk": 3,
+  "fields": {
+   "orden": 2,
+   "nivel": "Básica completa",
+   "poblacion": 1164640,
+   "porcentaje_adultos": 7.43,
+   "ingreso_mediano": 400000,
+   "ingreso_medio": 452985,
+   "pobreza_ingresos": 21.29
+  }
+ },
+ {
+  "model": "analisis.indicadoreducacion",
+  "pk": 4,
+  "fields": {
+   "orden": 3,
+   "nivel": "Media incompleta",
+   "poblacion": 1549547,
+   "porcentaje_adultos": 9.89,
+   "ingreso_mediano": 410369,
+   "ingreso_medio": 480522,
+   "pobreza_ingresos": 20.85
+  }
+ },
+ {
+  "model": "analisis.indicadoreducacion",
+  "pk": 5,
+  "fields": {
+   "orden": 4,
+   "nivel": "Media completa",
+   "poblacion": 4849717,
+   "porcentaje_adultos": 30.94,
+   "ingreso_mediano": 416615,
+   "ingreso_medio": 506721,
+   "pobreza_ingresos": 17.98
+  }
+ },
+ {
+  "model": "analisis.indicadoreducacion",
+  "pk": 6,
+  "fields": {
+   "orden": 5,
+   "nivel": "Superior incompleta",
+   "poblacion": 1962259,
+   "porcentaje_adultos": 12.52,
+   "ingreso_mediano": 479759,
+   "ingreso_medio": 666496,
+   "pobreza_ingresos": 15.67
+  }
+ },
+ {
+  "model": "analisis.indicadoreducacion",
+  "pk": 7,
+  "fields": {
+   "orden": 6,
+   "nivel": "Superior completa",
+   "poblacion": 4555462,
+   "porcentaje_adultos": 29.06,
+   "ingreso_mediano": 800000,
+   "ingreso_medio": 1139590,
+   "pobreza_ingresos": 5.55
+  }
+ },
+ {
+  "model": "analisis.ingresodecil",
+  "pk": 1,
+  "fields": {
+   "decil": 1,
+   "ingreso_medio": 146787,
+   "participacion": 2.25
+  }
+ },
+ {
+  "model": "analisis.ingresodecil",
+  "pk": 2,
+  "fields": {
+   "decil": 2,
+   "ingreso_medio": 230390,
+   "participacion": 3.53
+  }
+ },
+ {
+  "model": "analisis.ingresodecil",
+  "pk": 3,
+  "fields": {
+   "decil": 3,
+   "ingreso_medio": 289124,
+   "participacion": 4.43
+  }
+ },
+ {
+  "model": "analisis.ingresodecil",
+  "pk": 4,
+  "fields": {
+   "decil": 4,
+   "ingreso_medio": 349294,
+   "participacion": 5.35
+  }
+ },
+ {
+  "model": "analisis.ingresodecil",
+  "pk": 5,
+  "fields": {
+   "decil": 5,
+   "ingreso_medio": 412871,
+   "participacion": 6.32
+  }
+ },
+ {
+  "model": "analisis.ingresodecil",
+  "pk": 6,
+  "fields": {
+   "decil": 6,
+   "ingreso_medio": 488877,
+   "participacion": 7.48
+  }
+ },
+ {
+  "model": "analisis.ingresodecil",
+  "pk": 7,
+  "fields": {
+   "decil": 7,
+   "ingreso_medio": 587140,
+   "participacion": 8.99
+  }
+ },
+ {
+  "model": "analisis.ingresodecil",
+  "pk": 8,
+  "fields": {
+   "decil": 8,
+   "ingreso_medio": 734611,
+   "participacion": 11.25
+  }
+ },
+ {
+  "model": "analisis.ingresodecil",
+  "pk": 9,
+  "fields": {
+   "decil": 9,
+   "ingreso_medio": 1024050,
+   "participacion": 15.68
+  }
+ },
+ {
+  "model": "analisis.ingresodecil",
+  "pk": 10,
+  "fields": {
+   "decil": 10,
+   "ingreso_medio": 2268814,
+   "participacion": 34.73
+  }
+ },
+ {
+  "model": "analisis.resumennacional",
+  "pk": 1,
+  "fields": {
+   "poblacion": 20131682,
+   "registros": 218367,
+   "gini": 0.435,
+   "pobreza_ingresos": 17.29,
+   "pobreza_extrema": 6.87,
+   "pobreza_multidimensional": 17.68,
+   "ingreso_mediano": 450000,
+   "escolaridad_adultos": 12.32
+  }
+ }
+]

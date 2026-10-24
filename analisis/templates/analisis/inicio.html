@@ -1,0 +1,59 @@
+{% extends 'analisis/base.html' %}
+{% block titulo %}Chile desigual | CASEN 2024{% endblock %}
+{% block contenido %}
+<section class="card shadow-sm mb-4">
+  <div class="card-body">
+    <h2 class="h4">Bienvenidos a nuestro proyecto</h2>
+    <p class="mb-0">
+      Este sitio presenta un análisis de la Encuesta CASEN 2024, con el
+      objetivo de explorar las desigualdades territoriales, económicas y
+      sociales de Chile. Los datos provienen de los microdatos de la encuesta
+      ({{ resumen.registros }} registros) y se ponderan con el factor de
+      expansión para representar a toda la población del país.
+    </p>
+  </div>
+</section>
+
+{% if resumen %}
+<section class="row g-3 mb-4" aria-label="Indicadores nacionales">
+  <div class="col-6 col-lg-3">
+    <div class="card shadow-sm h-100 text-center"><div class="card-body">
+      <div class="text-secondary small">Pobreza por ingresos</div>
+      <div class="display-6">{{ resumen.pobreza_ingresos|floatformat:1 }}%</div>
+    </div></div>
+  </div>
+  <div class="col-6 col-lg-3">
+    <div class="card shadow-sm h-100 text-center"><div class="card-body">
+      <div class="text-secondary small">Pobreza multidimensional</div>
+      <div class="display-6">{{ resumen.pobreza_multidimensional|floatformat:1 }}%</div>
+    </div></div>
+  </div>
+  <div class="col-6 col-lg-3">
+    <div class="card shadow-sm h-100 text-center"><div class="card-body">
+      <div class="text-secondary small">Ingreso per cápita mediano</div>
+      <div class="display-6">${{ resumen.ingreso_mediano }}</div>
+    </div></div>
+  </div>
+  <div class="col-6 col-lg-3">
+    <div class="card shadow-sm h-100 text-center"><div class="card-body">
+      <div class="text-secondary small">Índice de Gini</div>
+      <div class="display-6">{{ resumen.gini|floatformat:3 }}</div>
+    </div></div>
+  </div>
+</section>
+{% endif %}
+
+<section class="card shadow-sm mb-4">
+  <div class="card-body">
+    <h2 class="h4">¿Qué encontrarás en esta página?</h2>
+    <ul class="mb-0">
+      <li><a href="{% url 'listado_regiones' %}">Tablas</a> con información
+        sobre pobreza y desigualdad.</li>
+      <li><a href="{% url 'grafico_barras' %}">Gráficos</a> de barras, líneas
+        y dispersión.</li>
+      <li><a href="{% url 'listado_educacion' %}">Análisis</a> de educación,
+        ingresos y territorio.</li>
+    </ul>
+  </div>
+</section>
+{% endblock %}
