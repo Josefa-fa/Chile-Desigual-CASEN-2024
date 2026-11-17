@@ -93,3 +93,18 @@ class ResumenNacional(models.Model):
 
     def __str__(self):
         return "CASEN 2024 - nacional"
+
+    
+class IndicadorSunburst(models.Model):
+    region = models.PositiveSmallIntegerField()
+    zona = models.CharField(max_length=20)
+    jefatura = models.CharField(max_length=20)
+    situacion_pobreza = models.CharField(max_length=30)
+    hogares_muestra = models.PositiveIntegerField()
+
+    class Meta:
+        verbose_name = "hogares por zona y situación de pobreza"
+        verbose_name_plural = "hogares por zona y situación de pobreza"
+
+    def __str__(self):
+        return f"{self.region} - {self.zona} - {self.jefatura} - {self.situacion_pobreza}"

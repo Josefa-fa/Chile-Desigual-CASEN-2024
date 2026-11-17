@@ -1,97 +1,66 @@
-<nav class="barra-menu" aria-label="Navegación principal">
+<nav class="menu-vertical" aria-label="Navegación principal">
 
-  <ul class="nav flex-column">
+    <h4 class="text-white text-center mb-4">CASEN 2024</h4>
 
-    <!-- INICIO -->
-    <li class="nav-item">
-      <a class="nav-link" href="{% url 'inicio' %}">
+    <a class="nav-link" href="{% url 'inicio' %}">
         Inicio
-      </a>
-    </li>
+    </a>
 
-    <hr class="border-light">
+    <div class="nav flex-column">
 
-    <!-- LISTADOS -->
-    <li class="nav-item">
+        <button class="nav-link text-start"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#menuListados"
+                aria-expanded="true"
+                aria-controls="menuListados">
+            Reportes ▾
+        </button>
 
-      <button class="nav-link dropdown-toggle w-100 text-start"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#menuListados"
-        aria-expanded="false"
-        aria-controls="menuListados">
-        Listados de datos
-      </button>
-
-      <div class="collapse" id="menuListados">
-        <ul class="nav flex-column ms-3">
-
-          <li class="nav-item">
-            <a class="nav-link"
-              href="{% url 'listado_regiones' %}">
-              Pobreza por región
+        <div class="collapse show" id="menuListados">
+            <a class="nav-link submenu" href="{% url 'listado_regiones' %}">
+                Pobreza por región
             </a>
-          </li>
 
-          <li class="nav-item">
-            <a class="nav-link"
-              href="{% url 'listado_zonas' %}">
-              Pobreza urbana y rural
+            <a class="nav-link submenu" href="{% url 'listado_zonas' %}">
+                Pobreza urbana y rural
             </a>
-          </li>
 
-          <li class="nav-item">
-            <a class="nav-link"
-              href="{% url 'listado_educacion' %}">
-              Educación e ingresos
+            <a class="nav-link submenu" href="{% url 'listado_educacion' %}">
+                Educación e ingresos
             </a>
-          </li>
 
-        </ul>
-      </div>
-    </li>
-
-    <hr class="border-light">
-
-    <!-- GRÁFICOS -->
-    <li class="nav-item">
-
-      <button class="nav-link dropdown-toggle w-100 text-start"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#menuGraficos"
-        aria-expanded="false"
-        aria-controls="menuGraficos">
-        Gráficos
-      </button>
-
-      <div class="collapse" id="menuGraficos">
-        <ul class="nav flex-column ms-3">
-
-          <li class="nav-item">
-            <a class="nav-link"
-              href="{% url 'grafico_barras' %}">
-              Gráfico de barras
+            <a class="nav-link submenu" href="{% url 'listado_pobreza_zona' %}">
+                Pobreza según zona (muestra)
             </a>
-          </li>
+        </div>
 
-          <li class="nav-item">
-            <a class="nav-link"
-              href="{% url 'grafico_lineas' %}">
-              Gráfico de líneas
+        <button class="nav-link text-start"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#menuGraficos"
+                aria-expanded="true"
+                aria-controls="menuGraficos">
+            Gráficos ▾
+        </button>
+
+        <div class="collapse show" id="menuGraficos">
+            <a class="nav-link submenu" href="{% url 'grafico_barras' %}">
+                Gráfico de barras
             </a>
-          </li>
 
-          <li class="nav-item">
-            <a class="nav-link"
-              href="{% url 'grafico_dispersion' %}">
-              Gráfico de dispersión
+            <a class="nav-link submenu" href="{% url 'grafico_lineas' %}">
+                Gráfico de líneas
             </a>
-          </li>
 
-        </ul>
-      </div>
-    </li>
+            <a class="nav-link submenu" href="{% url 'grafico_dispersion' %}">
+                Gráfico de dispersión
+            </a>
 
-  </ul>
+            <a class="nav-link submenu" href="{% url 'grafico_torta' %}">
+                Gráfico de torta
+            </a>
+        </div>
+
+    </div>
 </nav>

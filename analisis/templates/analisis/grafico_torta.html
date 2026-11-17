@@ -1,0 +1,111 @@
+
+{% extends "analisis/base.html" %}
+{% block titulo %}Gráfico de torta: pobreza según zona{% endblock %}
+
+{% block contenido %}
+
+<div class="container-fluid">
+<h2 class="h3 mb-3">Gráfico de torta: situación de pobreza según zona</h2>
+
+    <p>
+        Este gráfico muestra la distribución de los hogares
+        encuestados en CASEN 2024 según su situación de pobreza
+        por ingresos: pobreza extrema, pobreza no extrema y no pobre.
+        Cada porción representa el porcentaje de hogares de la muestra
+        que pertenece a una categoría. Al seleccionar una zona urbana
+        o rural, los porcentajes y las cantidades se actualizan,
+        permitiendo comparar la distribución de la pobreza entre
+        ambas zonas. Los resultados corresponden a hogares de la
+        muestra, sin aplicar factores de expansión.
+    </p>
+
+    <p class="small text-secondary">
+        <strong>Variables representadas:</strong> Filtro por <em>Zona</em> (Urbano / Rural),
+        categorías de <em>Situación de pobreza por ingresos</em> y frecuencia de
+        <em>Hogares de la muestra</em>.
+    </p>
+
+    {% if total_hogares == 0 %}
+    <div class="alert alert-warning">
+        No hay datos disponibles para la zona seleccionada.
+    </div>
+    {% endif %}
+
+    <div class="card shadow-sm mb-4">
+
+        <div class="card-body">
+
+            <form method="get" class="mb-4">
+
+                <label for="zona" class="form-label fw-bold">
+                    Explora la pobreza según zona:
+                </label>
+
+                <select
+                    name="zona"
+                    id="zona"
+                    class="form-select"
+                    style="max-width: 300px;"
+                    onchange="this.form.submit()">
+
+                    <option value="Todas"
+                        {% if zona == "Todas" %}selected{% endif %}>
+                        Todas las zonas
+                    </option>
+
+                    <option value="Urbano"
+                        {% if zona == "Urbano" %}selected{% endif %}>
+                        Zona urbana
+                    </option>
+
+                    <option value="Rural"
+                        {% if zona == "Rural" %}selected{% endif %}>
+                        Zona rural
+                    </option>
+
+                </select>
+
+            </form>
+
+            <div class="text-center">
+
+                <img
+                    src="data:image/png;base64,{{ grafico }}"
+                    class="img-fluid"
+                    alt="Gráfico de torta de pobreza según zona">
+
+            </div>
+
+            <div class="text-center mt-3">
+
+                <p>
+                    <strong>Zona seleccionada:</strong>
+                    {% if zona == "Todas" %}
+                        Todas las zonas
+                    {% else %}
+                        {{ zona }}
+                    {% endif %}
+                </p>
+
+                <p>
+                    <strong>Total de hogares de la muestra:</strong>
+                    {{ total_hogares }}
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <p class="text-muted small">
+        Fuente: CASEN 2024.
+        Elaboración propia a partir de hogares encuestados.
+        Los porcentajes son descriptivos de la muestra
+        y no representan estimaciones poblacionales.
+    </p>
+
+</div>
+
+{% endblock %}
+

@@ -1,112 +1,179 @@
 <!DOCTYPE html>
 <html lang="es-CL">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{% block titulo %}Chile desigual | CASEN 2024{% endblock %}</title>
+    <title>{% block titulo %}Chile desigual | CASEN 2024{% endblock %}</title>
 
-  <link rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-    crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 
-  <style>
-    body {
-      background-color: #f4f7fb;
-      color: #243447;
-    }
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            min-height: 100%;
+        }
 
-    /* Encabezado superior */
-    .encabezado {
-      background-color: #17324d;
-      color: white;
-    }
+        body {
+            background-color: #f4f7fb;
+            color: #243447;
+            font-family: Arial, sans-serif;
+        }
 
-    /* Distribución de menú y contenido */
-    .estructura {
-      display: flex;
-      min-height: calc(100vh - 150px);
-    }
+        h2 {
+            color: #17324d;
+        }
 
-    /* Menú vertical izquierdo */
-    .barra-menu {
-      background-color: #244765;
-      width: 250px;
-      flex-shrink: 0;
-      padding: 20px 10px;
-    }
+        .encabezado {
+            background-color: #17324d;
+            color: white;
+            padding: 25px 15px;
+            text-align: center;
+        }
 
-    .barra-menu .nav-link,
-    .barra-menu .navbar-brand {
-      color: white;
-    }
+        .encabezado h1 {
+            color: white;
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
 
-    .barra-menu .nav-link:hover,
-    .barra-menu .nav-link.show {
-      background-color: #37658b;
-      border-radius: 6px;
-    }
+        .encabezado p {
+            color: white;
+            margin-bottom: 0;
+            font-size: 15px;
+        }
 
-    /* Contenido principal */
-    .contenido-principal {
-      flex: 1;
-      min-width: 0;
-      padding: 25px;
-    }
+        .layout-principal {
+            display: flex;
+            align-items: stretch;
+            min-height: calc(100vh - 180px);
+        }
 
-    h2 {
-      color: #17324d;
-    }
+        .menu-vertical {
+            width: 250px;
+            min-width: 250px;
+            flex-shrink: 0;
+            background-color: #244765;
+            padding: 25px 15px;
+        }
 
-    /* Adaptación a celulares */
-    @media (max-width: 768px) {
-      .estructura {
-        flex-direction: column;
-      }
+        .menu-vertical h4 {
+            color: white;
+            font-size: 21px;
+            font-weight: bold;
+            margin-bottom: 25px;
+        }
 
-      .barra-menu {
-        width: 100%;
-      }
+        .menu-vertical .nav-link {
+            display: block;
+            width: 100%;
+            padding: 12px 15px;
+            color: white;
+            background-color: transparent;
+            border: none;
+            border-radius: 6px;
+            text-align: left;
+            text-decoration: none;
+            cursor: pointer;
+        }
 
-      .contenido-principal {
-        padding: 15px;
-      }
-    }
-  </style>
+        .menu-vertical .nav-link:hover {
+            background-color: #376587;
+            color: white;
+        }
+
+        .menu-vertical .nav-link:focus {
+            color: white;
+        }
+
+        .menu-vertical .submenu {
+            padding-left: 30px;
+            font-size: 14px;
+            color: #dce6ef;
+        }
+
+        .menu-vertical .submenu:hover {
+            background-color: #376587;
+            color: white;
+        }
+
+        .contenido-principal {
+            flex: 1;
+            min-width: 0;
+            padding: 25px;
+            background-color: #f4f7fb;
+        }
+
+        .contenido-principal .container-fluid {
+            width: 100%;
+            padding: 0;
+        }
+
+        .card {
+            border-radius: 6px;
+            border: 1px solid #dee2e6;
+        }
+
+        .table-responsive {
+            overflow-x: auto;
+        }
+
+        .pie-pagina {
+            background-color: #f4f7fb;
+            color: #6c757d;
+            padding: 20px;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        @media (max-width: 768px) {
+            .layout-principal {
+                flex-direction: column;
+            }
+
+            .menu-vertical {
+                width: 100%;
+                min-width: 0;
+            }
+
+            .contenido-principal {
+                padding: 15px;
+            }
+
+            .encabezado h1 {
+                font-size: 23px;
+            }
+        }
+    </style>
 </head>
 
 <body>
 
-  <!-- Encabezado -->
-  <header class="encabezado text-center py-4">
-    <h1 class="h2 text-white">Chile desigual: CASEN 2024</h1>
-    <p class="mb-0">
-      Brechas territoriales y calidad de vida en Chile
-    </p>
-  </header>
+    <header class="encabezado">
+        <h1>Chile desigual: CASEN 2024</h1>
+        <p>Brechas territoriales y calidad de vida en Chile</p>
+    </header>
 
-  <!-- Menú lateral y contenido -->
-  <div class="estructura">
+    <div class="layout-principal">
 
-    {% include 'analisis/menu.html' %}
+        {% include 'analisis/menu.html' %}
 
-    <main class="contenido-principal">
-      {% block contenido %}{% endblock %}
-    </main>
+        <main class="contenido-principal">
+            <div class="container-fluid">
+                {% block contenido %}{% endblock %}
+            </div>
+        </main>
 
-  </div>
+    </div>
 
-  <!-- Pie de página -->
-  <footer class="text-center text-secondary py-3">
-    Proyecto de Visualización de Datos | CASEN 2024
-  </footer>
+    <footer class="pie-pagina">
+        Proyecto de Visualización de Datos | CASEN 2024
+    </footer>
 
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
-
