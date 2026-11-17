@@ -1,11 +1,4 @@
-"""
-WSGI config for casen_web project.
-
-It exposes the WSGI callable as a module-level variable named ``application``.
-
-For more information on this file, see
-https://docs.djangoproject.com/en/6.1/howto/deployment/wsgi/
-"""
+"""Punto de entrada WSGI del proyecto casen_web."""
 
 import os
 

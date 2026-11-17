@@ -55,4 +55,8 @@
 </div>
 <p class="text-secondary small">Fuente: CASEN 2024, Ministerio de Desarrollo Social y Familia.
   Valores ponderados por el factor de expansión.</p>
+<div class="d-flex flex-wrap gap-2 mt-3">
+  <a href="{% url 'descargar_pdf' 'regiones' %}" class="btn btn-danger">Descarga en PDF</a>
+  <a href="{% url 'descargar_excel' 'regiones' %}" class="btn btn-success">Descarga en Excel</a>
+</div>
 {% endblock %}

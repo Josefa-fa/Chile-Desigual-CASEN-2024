@@ -1,0 +1,87 @@
+{% extends 'analisis/base.html' %}
+{% block titulo %}Reporte: Pobreza según zona{% endblock %}
+{% block contenido %}
+<h2 class="h3 mb-3">Situación de pobreza según zona (muestra CASEN 2024)</h2>
+
+<div class="card shadow-sm mb-3">
+  <div class="card-body">
+    <form method="get" class="row g-2 align-items-end">
+      <div class="col-auto">
+        <label for="zona" class="form-label fw-bold mb-1">Filtrar por zona:</label>
+        <select name="zona" id="zona" class="form-select" style="min-width: 240px;" onchange="this.form.submit()">
+          <option value="Todas" {% if zona == "Todas" %}selected{% endif %}>Todas las zonas</option>
+          <option value="Urbano" {% if zona == "Urbano" %}selected{% endif %}>Zona urbana</option>
+          <option value="Rural" {% if zona == "Rural" %}selected{% endif %}>Zona rural</option>
+        </select>
+      </div>
+      <div class="col-auto">
+        <a href="{% url 'grafico_torta' %}?zona={{ zona }}" class="btn btn-outline-primary">
+          Ver gráfico asociado
+        </a>
+      </div>
+    </form>
+  </div>
+</div>
+
+<p>
+  <strong>Origen y variables:</strong> Los datos provienen de los microdatos de hogares encuestados en
+  CASEN 2024 (hogares agrupados por zona y situación de pobreza), utilizando las variables <strong>Zona</strong>
+  (Urbano / Rural), <strong>Situación de pobreza por ingresos</strong> (Pobreza extrema, Pobreza no
+  extrema y No pobre) y <strong>Cantidad de hogares de la muestra</strong>.
+</p>
+<p>
+  <strong>Filtros y cálculos aplicados:</strong> Se filtran los registros según la selección vigente
+  (<strong>{% if zona == "Todas" %}Todas las zonas{% else %}Zona {{ zona }}{% endif %}</strong>),
+  se agrupan y suman los hogares por categoría de pobreza y se calcula su participación porcentual
+  sobre el total de <strong>{{ total_hogares }}</strong> hogares encuestados.
+  {% if total_hogares > 0 %}
+    <strong>Interpretación:</strong> En esta selección, la categoría predominante es
+    <strong>{{ predominante.categoria }}</strong> ({{ predominante.porcentaje|floatformat:1 }}%),
+    mientras que el <strong>{{ pobreza_total_pct|floatformat:1 }}%</strong> de los hogares de la
+    muestra se encuentra en situación de pobreza por ingresos (extrema o no extrema).
+  {% endif %}
+</p>
+
+{% if total_hogares > 0 %}
+<div class="table-responsive">
+  <table class="table table-striped table-hover align-middle bg-white">
+    <thead class="table-dark">
+      <tr>
+        <th>Situación de pobreza</th>
+        <th class="text-end">Hogares en la muestra</th>
+        <th class="text-end">Porcentaje de la muestra (%)</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for item in filas %}
+      <tr>
+        <td>{{ item.categoria }}</td>
+        <td class="text-end">{{ item.cantidad }}</td>
+        <td class="text-end">{{ item.porcentaje|floatformat:1 }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+    <tfoot class="table-secondary">
+      <tr>
+        <th>Total hogares encuestados</th>
+        <th class="text-end">{{ total_hogares }}</th>
+        <th class="text-end">100,0</th>
+      </tr>
+    </tfoot>
+  </table>
+</div>
+{% else %}
+<div class="alert alert-warning" role="alert">
+  No existen registros disponibles para la selección actual.
+</div>
+{% endif %}
+
+<p class="text-secondary small">
+  Fuente: CASEN 2024. Elaboración propia a partir de hogares encuestados (valores muestrales sin factor de expansión).
+</p>
+
+<div class="d-flex flex-wrap gap-2 mt-3">
+  <a href="{% url 'descargar_pdf' 'pobreza_zona' %}?zona={{ zona }}" class="btn btn-danger">Descarga en PDF</a>
+  <a href="{% url 'descargar_excel' 'pobreza_zona' %}?zona={{ zona }}" class="btn btn-success">Descarga en Excel</a>
+</div>
+{% endblock %}
