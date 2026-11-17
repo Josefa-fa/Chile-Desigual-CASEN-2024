@@ -56,4 +56,8 @@
 </div>
 <p class="text-secondary small">pp = puntos porcentuales. Fuente: CASEN 2024.
   Valores ponderados por el factor de expansión.</p>
+<div class="d-flex flex-wrap gap-2 mt-3">
+  <a href="{% url 'descargar_pdf' 'zonas' %}" class="btn btn-danger">Descarga en PDF</a>
+  <a href="{% url 'descargar_excel' 'zonas' %}" class="btn btn-success">Descarga en Excel</a>
+</div>
 {% endblock %}
