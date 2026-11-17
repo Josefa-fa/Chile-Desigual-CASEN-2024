@@ -15,7 +15,7 @@ respetando los filtros aplicados.
 - Vicente Guzmán
 
 ## Sitio desplegado
-http://_IP-PUBLICA_:8000/
+http://100.60.180.45:8000/
 
 ## Videos
 - Proceso de despliegue: _enlace_
@@ -73,11 +73,13 @@ no se requiere un servidor de base de datos aparte: la instancia utiliza el arch
 del repositorio.
 
 ### Configuración de la instancia
+- Entorno: AWS Academy Learner Lab, región us-east-1 (N. Virginia)
 - AMI: Ubuntu Server 24.04 LTS
 - Tipo de instancia: t2.micro
 - Security Group (reglas de entrada):
   - SSH, puerto 22
   - TCP personalizado, puerto 8000, origen 0.0.0.0/0
+- Elastic IP asociada a la instancia: 100.60.180.45 (dirección fija aunque la instancia se detenga)
 
 ### Instalación en el servidor
 ```
@@ -96,7 +98,7 @@ python manage.py migrate
 
 | Variable | Valor en el servidor |
 |---|---|
-| `DJANGO_ALLOWED_HOSTS` | IP pública de la instancia |
+| `DJANGO_ALLOWED_HOSTS` | `100.60.180.45` |
 | `DJANGO_SECRET_KEY` | Clave secreta generada para el servidor |
 | `DJANGO_DEBUG` | `0` (modo de depuración desactivado) |
 
@@ -111,7 +113,7 @@ After=network.target
 [Service]
 User=ubuntu
 WorkingDirectory=/home/ubuntu/Chile-Desigual-CASEN-2024
-Environment=DJANGO_ALLOWED_HOSTS=<IP-PUBLICA>
+Environment=DJANGO_ALLOWED_HOSTS=100.60.180.45
 Environment=DJANGO_SECRET_KEY=<CLAVE-SECRETA>
 Environment=DJANGO_DEBUG=0
 ExecStart=/home/ubuntu/Chile-Desigual-CASEN-2024/.venv/bin/gunicorn casen_web.wsgi:application --bind 0.0.0.0:8000 --workers 2
@@ -127,7 +129,7 @@ sudo systemctl enable --now casen
 ```
 
 ### Verificación
-El sitio se comprobó desde un navegador externo en `http://<IP-PUBLICA>:8000/`, revisando los
+El sitio se comprobó desde un navegador externo en `http://100.60.180.45:8000/`, revisando los
 cuatro gráficos, los cuatro reportes, el filtro por zona y las descargas en PDF y Excel.
 
 ## Fuente de los datos
