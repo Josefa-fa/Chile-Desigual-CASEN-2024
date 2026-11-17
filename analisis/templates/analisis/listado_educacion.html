@@ -41,4 +41,8 @@
 </div>
 <p class="text-secondary small">El ingreso es el ingreso total per cápita del hogar
   de cada persona. Fuente: CASEN 2024.</p>
+<div class="d-flex flex-wrap gap-2 mt-3">
+  <a href="{% url 'descargar_pdf' 'educacion' %}" class="btn btn-danger">Descarga en PDF</a>
+  <a href="{% url 'descargar_excel' 'educacion' %}" class="btn btn-success">Descarga en Excel</a>
+</div>
 {% endblock %}

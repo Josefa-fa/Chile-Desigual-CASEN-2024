@@ -1,0 +1,2114 @@
+[
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 1,
+        "fields": {
+            "region": 1,
+            "zona": "Rural",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "No pobre",
+            "hogares_muestra": 89
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 2,
+        "fields": {
+            "region": 1,
+            "zona": "Rural",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "Pobreza extrema",
+            "hogares_muestra": 3
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 3,
+        "fields": {
+            "region": 1,
+            "zona": "Rural",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "Pobreza no extrema",
+            "hogares_muestra": 21
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 4,
+        "fields": {
+            "region": 1,
+            "zona": "Rural",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "No pobre",
+            "hogares_muestra": 56
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 5,
+        "fields": {
+            "region": 1,
+            "zona": "Rural",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "Pobreza extrema",
+            "hogares_muestra": 15
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 6,
+        "fields": {
+            "region": 1,
+            "zona": "Rural",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "Pobreza no extrema",
+            "hogares_muestra": 13
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 7,
+        "fields": {
+            "region": 1,
+            "zona": "Urbano",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "No pobre",
+            "hogares_muestra": 1105
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 8,
+        "fields": {
+            "region": 1,
+            "zona": "Urbano",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "Pobreza extrema",
+            "hogares_muestra": 79
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 9,
+        "fields": {
+            "region": 1,
+            "zona": "Urbano",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "Pobreza no extrema",
+            "hogares_muestra": 114
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 10,
+        "fields": {
+            "region": 1,
+            "zona": "Urbano",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "No pobre",
+            "hogares_muestra": 1234
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 11,
+        "fields": {
+            "region": 1,
+            "zona": "Urbano",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "Pobreza extrema",
+            "hogares_muestra": 158
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 12,
+        "fields": {
+            "region": 1,
+            "zona": "Urbano",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "Pobreza no extrema",
+            "hogares_muestra": 206
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 13,
+        "fields": {
+            "region": 2,
+            "zona": "Rural",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "No pobre",
+            "hogares_muestra": 107
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 14,
+        "fields": {
+            "region": 2,
+            "zona": "Rural",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "Pobreza extrema",
+            "hogares_muestra": 11
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 15,
+        "fields": {
+            "region": 2,
+            "zona": "Rural",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "Pobreza no extrema",
+            "hogares_muestra": 10
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 16,
+        "fields": {
+            "region": 2,
+            "zona": "Rural",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "No pobre",
+            "hogares_muestra": 62
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 17,
+        "fields": {
+            "region": 2,
+            "zona": "Rural",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "Pobreza extrema",
+            "hogares_muestra": 8
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 18,
+        "fields": {
+            "region": 2,
+            "zona": "Rural",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "Pobreza no extrema",
+            "hogares_muestra": 20
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 19,
+        "fields": {
+            "region": 2,
+            "zona": "Urbano",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "No pobre",
+            "hogares_muestra": 1437
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 20,
+        "fields": {
+            "region": 2,
+            "zona": "Urbano",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "Pobreza extrema",
+            "hogares_muestra": 73
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 21,
+        "fields": {
+            "region": 2,
+            "zona": "Urbano",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "Pobreza no extrema",
+            "hogares_muestra": 100
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 22,
+        "fields": {
+            "region": 2,
+            "zona": "Urbano",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "No pobre",
+            "hogares_muestra": 1319
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 23,
+        "fields": {
+            "region": 2,
+            "zona": "Urbano",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "Pobreza extrema",
+            "hogares_muestra": 168
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 24,
+        "fields": {
+            "region": 2,
+            "zona": "Urbano",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "Pobreza no extrema",
+            "hogares_muestra": 190
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 25,
+        "fields": {
+            "region": 3,
+            "zona": "Rural",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "No pobre",
+            "hogares_muestra": 123
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 26,
+        "fields": {
+            "region": 3,
+            "zona": "Rural",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "Pobreza extrema",
+            "hogares_muestra": 11
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 27,
+        "fields": {
+            "region": 3,
+            "zona": "Rural",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "Pobreza no extrema",
+            "hogares_muestra": 21
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 28,
+        "fields": {
+            "region": 3,
+            "zona": "Rural",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "No pobre",
+            "hogares_muestra": 92
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 29,
+        "fields": {
+            "region": 3,
+            "zona": "Rural",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "Pobreza extrema",
+            "hogares_muestra": 27
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 30,
+        "fields": {
+            "region": 3,
+            "zona": "Rural",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "Pobreza no extrema",
+            "hogares_muestra": 18
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 31,
+        "fields": {
+            "region": 3,
+            "zona": "Urbano",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "No pobre",
+            "hogares_muestra": 1238
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 32,
+        "fields": {
+            "region": 3,
+            "zona": "Urbano",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "Pobreza extrema",
+            "hogares_muestra": 64
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 33,
+        "fields": {
+            "region": 3,
+            "zona": "Urbano",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "Pobreza no extrema",
+            "hogares_muestra": 108
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 34,
+        "fields": {
+            "region": 3,
+            "zona": "Urbano",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "No pobre",
+            "hogares_muestra": 1149
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 35,
+        "fields": {
+            "region": 3,
+            "zona": "Urbano",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "Pobreza extrema",
+            "hogares_muestra": 172
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 36,
+        "fields": {
+            "region": 3,
+            "zona": "Urbano",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "Pobreza no extrema",
+            "hogares_muestra": 234
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 37,
+        "fields": {
+            "region": 4,
+            "zona": "Rural",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "No pobre",
+            "hogares_muestra": 360
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 38,
+        "fields": {
+            "region": 4,
+            "zona": "Rural",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "Pobreza extrema",
+            "hogares_muestra": 41
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 39,
+        "fields": {
+            "region": 4,
+            "zona": "Rural",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "Pobreza no extrema",
+            "hogares_muestra": 67
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 40,
+        "fields": {
+            "region": 4,
+            "zona": "Rural",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "No pobre",
+            "hogares_muestra": 248
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 41,
+        "fields": {
+            "region": 4,
+            "zona": "Rural",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "Pobreza extrema",
+            "hogares_muestra": 47
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 42,
+        "fields": {
+            "region": 4,
+            "zona": "Rural",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "Pobreza no extrema",
+            "hogares_muestra": 67
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 43,
+        "fields": {
+            "region": 4,
+            "zona": "Urbano",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "No pobre",
+            "hogares_muestra": 1121
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 44,
+        "fields": {
+            "region": 4,
+            "zona": "Urbano",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "Pobreza extrema",
+            "hogares_muestra": 102
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 45,
+        "fields": {
+            "region": 4,
+            "zona": "Urbano",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "Pobreza no extrema",
+            "hogares_muestra": 111
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 46,
+        "fields": {
+            "region": 4,
+            "zona": "Urbano",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "No pobre",
+            "hogares_muestra": 1089
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 47,
+        "fields": {
+            "region": 4,
+            "zona": "Urbano",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "Pobreza extrema",
+            "hogares_muestra": 173
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 48,
+        "fields": {
+            "region": 4,
+            "zona": "Urbano",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "Pobreza no extrema",
+            "hogares_muestra": 212
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 49,
+        "fields": {
+            "region": 5,
+            "zona": "Rural",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "No pobre",
+            "hogares_muestra": 663
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 50,
+        "fields": {
+            "region": 5,
+            "zona": "Rural",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "Pobreza extrema",
+            "hogares_muestra": 28
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 51,
+        "fields": {
+            "region": 5,
+            "zona": "Rural",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "Pobreza no extrema",
+            "hogares_muestra": 80
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 52,
+        "fields": {
+            "region": 5,
+            "zona": "Rural",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "No pobre",
+            "hogares_muestra": 370
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 53,
+        "fields": {
+            "region": 5,
+            "zona": "Rural",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "Pobreza extrema",
+            "hogares_muestra": 53
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 54,
+        "fields": {
+            "region": 5,
+            "zona": "Rural",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "Pobreza no extrema",
+            "hogares_muestra": 91
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 55,
+        "fields": {
+            "region": 5,
+            "zona": "Urbano",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "No pobre",
+            "hogares_muestra": 2787
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 56,
+        "fields": {
+            "region": 5,
+            "zona": "Urbano",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "Pobreza extrema",
+            "hogares_muestra": 202
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 57,
+        "fields": {
+            "region": 5,
+            "zona": "Urbano",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "Pobreza no extrema",
+            "hogares_muestra": 267
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 58,
+        "fields": {
+            "region": 5,
+            "zona": "Urbano",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "No pobre",
+            "hogares_muestra": 3027
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 59,
+        "fields": {
+            "region": 5,
+            "zona": "Urbano",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "Pobreza extrema",
+            "hogares_muestra": 342
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 60,
+        "fields": {
+            "region": 5,
+            "zona": "Urbano",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "Pobreza no extrema",
+            "hogares_muestra": 505
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 61,
+        "fields": {
+            "region": 6,
+            "zona": "Rural",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "No pobre",
+            "hogares_muestra": 734
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 62,
+        "fields": {
+            "region": 6,
+            "zona": "Rural",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "Pobreza extrema",
+            "hogares_muestra": 45
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 63,
+        "fields": {
+            "region": 6,
+            "zona": "Rural",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "Pobreza no extrema",
+            "hogares_muestra": 99
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 64,
+        "fields": {
+            "region": 6,
+            "zona": "Rural",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "No pobre",
+            "hogares_muestra": 488
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 65,
+        "fields": {
+            "region": 6,
+            "zona": "Rural",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "Pobreza extrema",
+            "hogares_muestra": 69
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 66,
+        "fields": {
+            "region": 6,
+            "zona": "Rural",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "Pobreza no extrema",
+            "hogares_muestra": 106
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 67,
+        "fields": {
+            "region": 6,
+            "zona": "Urbano",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "No pobre",
+            "hogares_muestra": 1563
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 68,
+        "fields": {
+            "region": 6,
+            "zona": "Urbano",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "Pobreza extrema",
+            "hogares_muestra": 101
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 69,
+        "fields": {
+            "region": 6,
+            "zona": "Urbano",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "Pobreza no extrema",
+            "hogares_muestra": 142
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 70,
+        "fields": {
+            "region": 6,
+            "zona": "Urbano",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "No pobre",
+            "hogares_muestra": 1539
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 71,
+        "fields": {
+            "region": 6,
+            "zona": "Urbano",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "Pobreza extrema",
+            "hogares_muestra": 182
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 72,
+        "fields": {
+            "region": 6,
+            "zona": "Urbano",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "Pobreza no extrema",
+            "hogares_muestra": 256
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 73,
+        "fields": {
+            "region": 7,
+            "zona": "Rural",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "No pobre",
+            "hogares_muestra": 768
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 74,
+        "fields": {
+            "region": 7,
+            "zona": "Rural",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "Pobreza extrema",
+            "hogares_muestra": 85
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 75,
+        "fields": {
+            "region": 7,
+            "zona": "Rural",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "Pobreza no extrema",
+            "hogares_muestra": 154
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 76,
+        "fields": {
+            "region": 7,
+            "zona": "Rural",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "No pobre",
+            "hogares_muestra": 493
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 77,
+        "fields": {
+            "region": 7,
+            "zona": "Rural",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "Pobreza extrema",
+            "hogares_muestra": 88
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 78,
+        "fields": {
+            "region": 7,
+            "zona": "Rural",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "Pobreza no extrema",
+            "hogares_muestra": 144
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 79,
+        "fields": {
+            "region": 7,
+            "zona": "Urbano",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "No pobre",
+            "hogares_muestra": 1465
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 80,
+        "fields": {
+            "region": 7,
+            "zona": "Urbano",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "Pobreza extrema",
+            "hogares_muestra": 122
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 81,
+        "fields": {
+            "region": 7,
+            "zona": "Urbano",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "Pobreza no extrema",
+            "hogares_muestra": 204
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 82,
+        "fields": {
+            "region": 7,
+            "zona": "Urbano",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "No pobre",
+            "hogares_muestra": 1435
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 83,
+        "fields": {
+            "region": 7,
+            "zona": "Urbano",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "Pobreza extrema",
+            "hogares_muestra": 274
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 84,
+        "fields": {
+            "region": 7,
+            "zona": "Urbano",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "Pobreza no extrema",
+            "hogares_muestra": 346
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 85,
+        "fields": {
+            "region": 8,
+            "zona": "Rural",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "No pobre",
+            "hogares_muestra": 653
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 86,
+        "fields": {
+            "region": 8,
+            "zona": "Rural",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "Pobreza extrema",
+            "hogares_muestra": 65
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 87,
+        "fields": {
+            "region": 8,
+            "zona": "Rural",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "Pobreza no extrema",
+            "hogares_muestra": 105
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 88,
+        "fields": {
+            "region": 8,
+            "zona": "Rural",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "No pobre",
+            "hogares_muestra": 386
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 89,
+        "fields": {
+            "region": 8,
+            "zona": "Rural",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "Pobreza extrema",
+            "hogares_muestra": 66
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 90,
+        "fields": {
+            "region": 8,
+            "zona": "Rural",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "Pobreza no extrema",
+            "hogares_muestra": 101
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 91,
+        "fields": {
+            "region": 8,
+            "zona": "Urbano",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "No pobre",
+            "hogares_muestra": 2716
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 92,
+        "fields": {
+            "region": 8,
+            "zona": "Urbano",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "Pobreza extrema",
+            "hogares_muestra": 168
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 93,
+        "fields": {
+            "region": 8,
+            "zona": "Urbano",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "Pobreza no extrema",
+            "hogares_muestra": 282
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 94,
+        "fields": {
+            "region": 8,
+            "zona": "Urbano",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "No pobre",
+            "hogares_muestra": 2716
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 95,
+        "fields": {
+            "region": 8,
+            "zona": "Urbano",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "Pobreza extrema",
+            "hogares_muestra": 347
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 96,
+        "fields": {
+            "region": 8,
+            "zona": "Urbano",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "Pobreza no extrema",
+            "hogares_muestra": 519
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 97,
+        "fields": {
+            "region": 9,
+            "zona": "Rural",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "No pobre",
+            "hogares_muestra": 632
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 98,
+        "fields": {
+            "region": 9,
+            "zona": "Rural",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "Pobreza extrema",
+            "hogares_muestra": 159
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 99,
+        "fields": {
+            "region": 9,
+            "zona": "Rural",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "Pobreza no extrema",
+            "hogares_muestra": 176
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 100,
+        "fields": {
+            "region": 9,
+            "zona": "Rural",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "No pobre",
+            "hogares_muestra": 388
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 101,
+        "fields": {
+            "region": 9,
+            "zona": "Rural",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "Pobreza extrema",
+            "hogares_muestra": 160
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 102,
+        "fields": {
+            "region": 9,
+            "zona": "Rural",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "Pobreza no extrema",
+            "hogares_muestra": 165
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 103,
+        "fields": {
+            "region": 9,
+            "zona": "Urbano",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "No pobre",
+            "hogares_muestra": 1342
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 104,
+        "fields": {
+            "region": 9,
+            "zona": "Urbano",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "Pobreza extrema",
+            "hogares_muestra": 116
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 105,
+        "fields": {
+            "region": 9,
+            "zona": "Urbano",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "Pobreza no extrema",
+            "hogares_muestra": 206
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 106,
+        "fields": {
+            "region": 9,
+            "zona": "Urbano",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "No pobre",
+            "hogares_muestra": 1421
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 107,
+        "fields": {
+            "region": 9,
+            "zona": "Urbano",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "Pobreza extrema",
+            "hogares_muestra": 316
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 108,
+        "fields": {
+            "region": 9,
+            "zona": "Urbano",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "Pobreza no extrema",
+            "hogares_muestra": 377
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 109,
+        "fields": {
+            "region": 10,
+            "zona": "Rural",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "No pobre",
+            "hogares_muestra": 586
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 110,
+        "fields": {
+            "region": 10,
+            "zona": "Rural",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "Pobreza extrema",
+            "hogares_muestra": 45
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 111,
+        "fields": {
+            "region": 10,
+            "zona": "Rural",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "Pobreza no extrema",
+            "hogares_muestra": 81
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 112,
+        "fields": {
+            "region": 10,
+            "zona": "Rural",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "No pobre",
+            "hogares_muestra": 381
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 113,
+        "fields": {
+            "region": 10,
+            "zona": "Rural",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "Pobreza extrema",
+            "hogares_muestra": 43
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 114,
+        "fields": {
+            "region": 10,
+            "zona": "Rural",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "Pobreza no extrema",
+            "hogares_muestra": 93
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 115,
+        "fields": {
+            "region": 10,
+            "zona": "Urbano",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "No pobre",
+            "hogares_muestra": 1165
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 116,
+        "fields": {
+            "region": 10,
+            "zona": "Urbano",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "Pobreza extrema",
+            "hogares_muestra": 56
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 117,
+        "fields": {
+            "region": 10,
+            "zona": "Urbano",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "Pobreza no extrema",
+            "hogares_muestra": 127
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 118,
+        "fields": {
+            "region": 10,
+            "zona": "Urbano",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "No pobre",
+            "hogares_muestra": 1349
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 119,
+        "fields": {
+            "region": 10,
+            "zona": "Urbano",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "Pobreza extrema",
+            "hogares_muestra": 148
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 120,
+        "fields": {
+            "region": 10,
+            "zona": "Urbano",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "Pobreza no extrema",
+            "hogares_muestra": 206
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 121,
+        "fields": {
+            "region": 11,
+            "zona": "Rural",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "No pobre",
+            "hogares_muestra": 231
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 122,
+        "fields": {
+            "region": 11,
+            "zona": "Rural",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "Pobreza extrema",
+            "hogares_muestra": 10
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 123,
+        "fields": {
+            "region": 11,
+            "zona": "Rural",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "Pobreza no extrema",
+            "hogares_muestra": 24
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 124,
+        "fields": {
+            "region": 11,
+            "zona": "Rural",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "No pobre",
+            "hogares_muestra": 178
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 125,
+        "fields": {
+            "region": 11,
+            "zona": "Rural",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "Pobreza extrema",
+            "hogares_muestra": 9
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 126,
+        "fields": {
+            "region": 11,
+            "zona": "Rural",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "Pobreza no extrema",
+            "hogares_muestra": 28
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 127,
+        "fields": {
+            "region": 11,
+            "zona": "Urbano",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "No pobre",
+            "hogares_muestra": 468
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 128,
+        "fields": {
+            "region": 11,
+            "zona": "Urbano",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "Pobreza extrema",
+            "hogares_muestra": 21
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 129,
+        "fields": {
+            "region": 11,
+            "zona": "Urbano",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "Pobreza no extrema",
+            "hogares_muestra": 29
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 130,
+        "fields": {
+            "region": 11,
+            "zona": "Urbano",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "No pobre",
+            "hogares_muestra": 617
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 131,
+        "fields": {
+            "region": 11,
+            "zona": "Urbano",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "Pobreza extrema",
+            "hogares_muestra": 51
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 132,
+        "fields": {
+            "region": 11,
+            "zona": "Urbano",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "Pobreza no extrema",
+            "hogares_muestra": 87
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 133,
+        "fields": {
+            "region": 12,
+            "zona": "Rural",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "No pobre",
+            "hogares_muestra": 149
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 134,
+        "fields": {
+            "region": 12,
+            "zona": "Rural",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "Pobreza extrema",
+            "hogares_muestra": 2
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 135,
+        "fields": {
+            "region": 12,
+            "zona": "Rural",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "Pobreza no extrema",
+            "hogares_muestra": 4
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 136,
+        "fields": {
+            "region": 12,
+            "zona": "Rural",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "No pobre",
+            "hogares_muestra": 64
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 137,
+        "fields": {
+            "region": 12,
+            "zona": "Rural",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "Pobreza extrema",
+            "hogares_muestra": 2
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 138,
+        "fields": {
+            "region": 12,
+            "zona": "Rural",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "Pobreza no extrema",
+            "hogares_muestra": 8
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 139,
+        "fields": {
+            "region": 12,
+            "zona": "Urbano",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "No pobre",
+            "hogares_muestra": 1005
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 140,
+        "fields": {
+            "region": 12,
+            "zona": "Urbano",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "Pobreza extrema",
+            "hogares_muestra": 47
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 141,
+        "fields": {
+            "region": 12,
+            "zona": "Urbano",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "Pobreza no extrema",
+            "hogares_muestra": 48
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 142,
+        "fields": {
+            "region": 12,
+            "zona": "Urbano",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "No pobre",
+            "hogares_muestra": 877
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 143,
+        "fields": {
+            "region": 12,
+            "zona": "Urbano",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "Pobreza extrema",
+            "hogares_muestra": 48
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 144,
+        "fields": {
+            "region": 12,
+            "zona": "Urbano",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "Pobreza no extrema",
+            "hogares_muestra": 100
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 145,
+        "fields": {
+            "region": 13,
+            "zona": "Rural",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "No pobre",
+            "hogares_muestra": 376
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 146,
+        "fields": {
+            "region": 13,
+            "zona": "Rural",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "Pobreza extrema",
+            "hogares_muestra": 23
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 147,
+        "fields": {
+            "region": 13,
+            "zona": "Rural",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "Pobreza no extrema",
+            "hogares_muestra": 28
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 148,
+        "fields": {
+            "region": 13,
+            "zona": "Rural",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "No pobre",
+            "hogares_muestra": 324
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 149,
+        "fields": {
+            "region": 13,
+            "zona": "Rural",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "Pobreza extrema",
+            "hogares_muestra": 33
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 150,
+        "fields": {
+            "region": 13,
+            "zona": "Rural",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "Pobreza no extrema",
+            "hogares_muestra": 52
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 151,
+        "fields": {
+            "region": 13,
+            "zona": "Urbano",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "No pobre",
+            "hogares_muestra": 5481
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 152,
+        "fields": {
+            "region": 13,
+            "zona": "Urbano",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "Pobreza extrema",
+            "hogares_muestra": 269
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 153,
+        "fields": {
+            "region": 13,
+            "zona": "Urbano",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "Pobreza no extrema",
+            "hogares_muestra": 375
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 154,
+        "fields": {
+            "region": 13,
+            "zona": "Urbano",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "No pobre",
+            "hogares_muestra": 5954
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 155,
+        "fields": {
+            "region": 13,
+            "zona": "Urbano",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "Pobreza extrema",
+            "hogares_muestra": 467
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 156,
+        "fields": {
+            "region": 13,
+            "zona": "Urbano",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "Pobreza no extrema",
+            "hogares_muestra": 769
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 157,
+        "fields": {
+            "region": 14,
+            "zona": "Rural",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "No pobre",
+            "hogares_muestra": 437
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 158,
+        "fields": {
+            "region": 14,
+            "zona": "Rural",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "Pobreza extrema",
+            "hogares_muestra": 53
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 159,
+        "fields": {
+            "region": 14,
+            "zona": "Rural",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "Pobreza no extrema",
+            "hogares_muestra": 89
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 160,
+        "fields": {
+            "region": 14,
+            "zona": "Rural",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "No pobre",
+            "hogares_muestra": 281
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 161,
+        "fields": {
+            "region": 14,
+            "zona": "Rural",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "Pobreza extrema",
+            "hogares_muestra": 64
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 162,
+        "fields": {
+            "region": 14,
+            "zona": "Rural",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "Pobreza no extrema",
+            "hogares_muestra": 97
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 163,
+        "fields": {
+            "region": 14,
+            "zona": "Urbano",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "No pobre",
+            "hogares_muestra": 914
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 164,
+        "fields": {
+            "region": 14,
+            "zona": "Urbano",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "Pobreza extrema",
+            "hogares_muestra": 59
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 165,
+        "fields": {
+            "region": 14,
+            "zona": "Urbano",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "Pobreza no extrema",
+            "hogares_muestra": 102
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 166,
+        "fields": {
+            "region": 14,
+            "zona": "Urbano",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "No pobre",
+            "hogares_muestra": 988
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 167,
+        "fields": {
+            "region": 14,
+            "zona": "Urbano",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "Pobreza extrema",
+            "hogares_muestra": 140
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 168,
+        "fields": {
+            "region": 14,
+            "zona": "Urbano",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "Pobreza no extrema",
+            "hogares_muestra": 209
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 169,
+        "fields": {
+            "region": 15,
+            "zona": "Rural",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "No pobre",
+            "hogares_muestra": 84
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 170,
+        "fields": {
+            "region": 15,
+            "zona": "Rural",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "Pobreza extrema",
+            "hogares_muestra": 11
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 171,
+        "fields": {
+            "region": 15,
+            "zona": "Rural",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "Pobreza no extrema",
+            "hogares_muestra": 16
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 172,
+        "fields": {
+            "region": 15,
+            "zona": "Rural",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "No pobre",
+            "hogares_muestra": 58
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 173,
+        "fields": {
+            "region": 15,
+            "zona": "Rural",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "Pobreza extrema",
+            "hogares_muestra": 20
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 174,
+        "fields": {
+            "region": 15,
+            "zona": "Rural",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "Pobreza no extrema",
+            "hogares_muestra": 27
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 175,
+        "fields": {
+            "region": 15,
+            "zona": "Urbano",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "No pobre",
+            "hogares_muestra": 990
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 176,
+        "fields": {
+            "region": 15,
+            "zona": "Urbano",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "Pobreza extrema",
+            "hogares_muestra": 71
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 177,
+        "fields": {
+            "region": 15,
+            "zona": "Urbano",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "Pobreza no extrema",
+            "hogares_muestra": 85
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 178,
+        "fields": {
+            "region": 15,
+            "zona": "Urbano",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "No pobre",
+            "hogares_muestra": 1093
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 179,
+        "fields": {
+            "region": 15,
+            "zona": "Urbano",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "Pobreza extrema",
+            "hogares_muestra": 159
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 180,
+        "fields": {
+            "region": 15,
+            "zona": "Urbano",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "Pobreza no extrema",
+            "hogares_muestra": 181
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 181,
+        "fields": {
+            "region": 16,
+            "zona": "Rural",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "No pobre",
+            "hogares_muestra": 427
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 182,
+        "fields": {
+            "region": 16,
+            "zona": "Rural",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "Pobreza extrema",
+            "hogares_muestra": 70
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 183,
+        "fields": {
+            "region": 16,
+            "zona": "Rural",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "Pobreza no extrema",
+            "hogares_muestra": 103
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 184,
+        "fields": {
+            "region": 16,
+            "zona": "Rural",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "No pobre",
+            "hogares_muestra": 307
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 185,
+        "fields": {
+            "region": 16,
+            "zona": "Rural",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "Pobreza extrema",
+            "hogares_muestra": 73
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 186,
+        "fields": {
+            "region": 16,
+            "zona": "Rural",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "Pobreza no extrema",
+            "hogares_muestra": 80
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 187,
+        "fields": {
+            "region": 16,
+            "zona": "Urbano",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "No pobre",
+            "hogares_muestra": 926
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 188,
+        "fields": {
+            "region": 16,
+            "zona": "Urbano",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "Pobreza extrema",
+            "hogares_muestra": 73
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 189,
+        "fields": {
+            "region": 16,
+            "zona": "Urbano",
+            "jefatura": "Hombre",
+            "situacion_pobreza": "Pobreza no extrema",
+            "hogares_muestra": 110
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 190,
+        "fields": {
+            "region": 16,
+            "zona": "Urbano",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "No pobre",
+            "hogares_muestra": 934
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 191,
+        "fields": {
+            "region": 16,
+            "zona": "Urbano",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "Pobreza extrema",
+            "hogares_muestra": 162
+        }
+    },
+    {
+        "model": "analisis.indicadorsunburst",
+        "pk": 192,
+        "fields": {
+            "region": 16,
+            "zona": "Urbano",
+            "jefatura": "Mujer",
+            "situacion_pobreza": "Pobreza no extrema",
+            "hogares_muestra": 231
+        }
+    }
+]
