@@ -18,8 +18,8 @@ respetando los filtros aplicados.
 http://100.60.180.45:8000/
 
 ## Videos
-- Proceso de despliegue: _enlace_
-- Presentación del software y explicación del código: _enlace_
+- Proceso de despliegue:[ _enlace_](https://drive.google.com/drive/folders/1hY4kvOv1jCY5_NZRGu9PPPPfExnKMBL0?usp=sharing)
+- Presentación del software y explicación del código: [_enlace_](https://drive.google.com/drive/folders/1hY4kvOv1jCY5_NZRGu9PPPPfExnKMBL0?usp=sharing)
 
 ## Funcionalidades
 | Sección | Ruta |
